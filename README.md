@@ -63,6 +63,18 @@ Após executar `az login`, uma janela será aberta na Azure onde você deverá i
 #### ATENÇÃO:
 Insira suas credenciais de acesso à VM no arquivo `secrets.tfvars`, e referencie os valores no arquivo `variables.tf` desta forma será possível utilizar as credenciais sem expô-las no código, ou seja, suas credenciais de acesso permanecerão seguras. Lembre-se **NÃO INCLUA O ARQUIVO SECRETS.TFVARS NO CONTROLE DE VERSÃO**
 
+# Estrutura do Projeto
+```
+AzureDatabase/
+│
+├──Infra/
+│    └── main.tf
+│    └── secrets.tfvars              //NÃO INCLUIR NO CONTROLE DE VERSÃO (utilizar .gitignore)
+│    └── variables.tf
+├── .gitignore           
+└── README.md
+```
+
 Após realizar os scripts, seguir os passos abaixo:
 1. Iniciar o Terraform
 2. Planejar a infra (gera um plano de execução, a fim de verificar o que será criado)
