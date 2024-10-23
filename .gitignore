@@ -1,0 +1,4 @@
+Aqui deve estar seu arquivo .tfvars, para fazer que o git ignore-o basta inserí-lo conforme a linha abaixo (sem estar comentado):
+#secrets.tfvars
+ou
+#*.tfvars
