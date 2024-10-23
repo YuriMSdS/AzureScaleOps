@@ -66,7 +66,7 @@ Insira suas credenciais de acesso à VM no arquivo `secrets.tfvars`, e referenci
 Após realizar os scripts, seguir os passos abaixo:
 1. Iniciar o Terraform
 2. Planejar a infra (gera um plano de execução, a fim de verificar o que será criado)
-3. Aplicar a configuração (neste passo, criará o banco de dados utilizando as variáveis de credenciais, visando a segurança)
+3. Aplicar a configuração (neste passo, criará a VM utilizando as variáveis de credenciais, visando a segurança)
 
 #### Inicializar o Terraform
 ```bash
